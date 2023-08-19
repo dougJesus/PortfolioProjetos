@@ -1,12 +1,14 @@
 import styles from './Navbar.module.css'
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import Nav from 'react-bootstrap/nav'
+
 function Navbar(){
     return (
         <div className={styles.navbar}>
             <ul>
                 <li>Apresentação</li>
                 <li>Habilidades</li>
-                <li>Projetos</li>
+                <li><Nav.Link href='#Projects'>Projetos</Nav.Link></li>
             </ul>
             <ul>
                 <li><FaInstagram size={30}></FaInstagram></li>
