@@ -6,14 +6,14 @@ function Navbar(){
     return (
         <div className={styles.navbar}>
             <ul>
-                <li>Apresentação</li>
-                <li>Habilidades</li>
+            <li><Nav.Link href='#Presentation'>Apresentação</Nav.Link></li>
+                <li><Nav.Link href='#Skills'>Habilidades</Nav.Link></li>
                 <li><Nav.Link href='#Projects'>Projetos</Nav.Link></li>
             </ul>
             <ul>
-                <li><FaInstagram size={30}></FaInstagram></li>
-                <li><FaLinkedin size={30}></FaLinkedin></li>
-                <li><FaGithub size={30}></FaGithub></li>
+                <li><a href='https://www.google.com'><FaInstagram size={30}></FaInstagram></a></li>
+                <li><a href='https://www.globo.com'><FaLinkedin size={30}></FaLinkedin></a></li>
+                <li><a href='https://www.outlook.com'><FaGithub size={30}></FaGithub></a></li>
             </ul>
         </div>
     )
