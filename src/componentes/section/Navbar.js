@@ -11,9 +11,9 @@ function Navbar(){
                 <li><Nav.Link href='#Projects'>Projetos</Nav.Link></li>
             </ul>
             <ul>
-                <li><a href='https://www.google.com'><FaInstagram size={30}></FaInstagram></a></li>
-                <li><a href='https://www.globo.com'><FaLinkedin size={30}></FaLinkedin></a></li>
-                <li><a href='https://www.outlook.com'><FaGithub size={30}></FaGithub></a></li>
+                <li><a href='https://www.google.com' target='blank'><FaInstagram size={30}></FaInstagram></a></li>
+                <li><a href='https://www.globo.com' target='blank'><FaLinkedin size={30}></FaLinkedin></a></li>
+                <li><a href='https://www.outlook.com' target='blank'><FaGithub size={30}></FaGithub></a></li>
             </ul>
         </div>
     )
