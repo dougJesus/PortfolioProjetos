@@ -1,4 +1,6 @@
 import styles from './Presentation.module.css'
+import ButtonA from '../elements/ButtonA'
+import ButtonB from '../elements/ButtonB'
 
 function Presentation (){
     return (
@@ -13,6 +15,7 @@ function Presentation (){
                 estou sempre em busca de novos desafios para superar.
 
             </p>
+            <ButtonA link='https://www.google.com' text='Conecte-se comigo'/>
         </div>
     )
 }
