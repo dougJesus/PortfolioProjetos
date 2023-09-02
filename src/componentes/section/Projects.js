@@ -3,6 +3,7 @@ import styles from './Projects.module.css'
 import Card from '../elements/Card'
 import lpdnc from '../../image/projects/lpdnc.svg'
 import portfolio from '../../image/projects/portfolio.svg'
+import ButtonB from '../elements/ButtonB'
 
 function Projects (){
     return (
@@ -24,6 +25,7 @@ function Projects (){
             repo="https://www.google.com"
             site="https://www.google.com"
             />
+            <ButtonB text='Acesse meu repositorio'/>
         </div>
     )
 }
