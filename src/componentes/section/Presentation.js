@@ -1,6 +1,5 @@
 import styles from './Presentation.module.css'
 import ButtonA from '../elements/ButtonA'
-import ButtonB from '../elements/ButtonB'
 
 function Presentation (){
     return (
@@ -13,7 +12,6 @@ function Presentation (){
                 complexos e trazer resultados excepcionais para os negócios.<br/>
                 Meus projetos já geraram milhões de reais em receita anual<br/>
                 estou sempre em busca de novos desafios para superar.
-
             </p>
             <ButtonA link='https://www.google.com' text='Conecte-se comigo'/>
         </div>
