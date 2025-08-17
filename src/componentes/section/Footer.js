@@ -1,6 +1,6 @@
 import styles from './Footer.module.css'
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
-import Footer from 'react-bootstrap/Footer'
+
 
 function Footer (){
     return (
